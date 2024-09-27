@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+.container-fluid{ 
+    background-image: url("https://live.staticflickr.com/6056/6382651501_bc3066fa97.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    image-resolution: from-image;
+    image-resolution: 100dpi;
+    image-resolution: from-image 100dpi;
+    image-resolution: 100dpi snap;
+    
+    /* Global values */
+    image-resolution: inherit;
+    image-resolution: initial;
+    image-resolution: revert;
+    image-resolution: revert-layer;
+    image-resolution: unset;
+    
+    height: 250vh;
+    width: 100%;
+    font-family:"Poppins", sans-serif;;
+    
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.navbar-nav{
+    height: 10vh;
+    align-items: center;
+  
+
+}
+.nav-link{
+    color:rgb(92, 174, 73);
+    font-size: 20px;
+    font-family:"Poppins", sans-serif;
+    font-weight: bolder;
+   
+}
+.nav-item{
+    color:rgb(150, 237, 57);
+    margin-left: 40px;
+
+}
+.nav-item a:hover{
+    color:rgb(186, 244, 39);
+    align-items: center;
+}
+.btn-primary{
+    margin-right: 0px;
+    font-family:"Poppins", sans-serif; 
+    
+}
+.bi-person-circle{
+    font-size: 30px;
+    color:rgb(244, 112, 46);
+    padding: 20px;
+}
+.h1{
+    color:rgb(34, 227, 241);
+    font-family:"Garamond";
+    text-align: center;
+    font-size:60px ;
+    font-weight: bolder;
+}
+.h1:hover{
+    color: rgb(251, 135, 208)
+
+}
+.lead{
+    color: rgb(7, 172, 194);
+    font-family:"Poppins", sans-serif; ;
+    text-align: center;
+    font-weight: normal;
+}
+.block1{
+    height:30vh;
+    width:100% ;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  
+
+   
+   
+}
+.card{
+    border-style: none;
+    background-color:aquamarine;
+  
+}
+.card:hover{
+   color:rgb(17, 13, 13);
+}
+.block2{
+    height:30vh;
+    width:100% ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.block3{
+    height:30vh;
+    width:100% ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+#search{
+    width: 80%;
+    border-radius: 100%;
+    margin-left: 130px;
+    background-color: none;
+    display: flex;
+}
+#group{
+    width: 65%;
+    
+}
+#form{
+    width: 30%;
+}
+.btn-group{
+    border-radius: 30%;
+}
